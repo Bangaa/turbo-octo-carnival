@@ -1,0 +1,36 @@
+#escenario {
+  border: 1px black solid;
+  height: 100px;
+  margin-left: 180px;
+  margin-right: 180px;
+  background-color: #fa5882;
+}
+
+.containercol {
+  display: flex;
+}
+
+.columna {
+  display: flex;
+  height: 50px;
+  width: 33%;
+  justify-content: center;
+}
+
+.asiento {
+  background-color: #88e053;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.asiento:hover {
+  background-color: lightblue;
+}
+
+.asiento.ocupado {
+  background-color: red;
+}
